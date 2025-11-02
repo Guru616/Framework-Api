@@ -5,7 +5,6 @@ from endpoints.create_object import CreateObject
 from endpoints.delete_object import DeleteObject
 
 url = 'https://api.restful-api.dev/objects'
-# url = 'https://fastapi-ggg666.amvera.io/'
 
 @pytest.fixture()
 def obj_id():
