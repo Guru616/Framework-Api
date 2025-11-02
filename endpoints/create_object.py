@@ -9,4 +9,4 @@ class CreateObject(base_endpoint.Endpoint):
         self.response_json = self.response.json()
 
     def check_name(self, name):
-        assert self.response_json['name'] == name['name']
+        assert self.response_json['name'] == name

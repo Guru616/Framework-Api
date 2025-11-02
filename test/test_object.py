@@ -19,7 +19,7 @@ def test_create_post():
 
     new_object_endpoint.new_object(url=url, create_data=create_data)
     new_object_endpoint.check_response_is_200()
-    new_object_endpoint.check_name(name=create_data["name"])
+    new_object_endpoint.check_name(create_data['name'])
 
 
 def test_read_get(obj_id):
